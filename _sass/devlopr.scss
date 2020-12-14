@@ -496,7 +496,7 @@ header {
 /* jumbotron */
 .jumbotron {
     background-color: var(--main-background-color) !important;
-    background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-image: url('../img/beach1.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -734,6 +734,7 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    box-shadow: 0 0 8px 8px var(--main-background-color);
 }
 
 .blog-post {
