@@ -3,7 +3,7 @@ subtitle: Personal blog and portfolio for Jake Sweany
 description: >- # this means to ignore newlines until "baseurl:"
   
 
-url: "jrootr.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
@@ -28,11 +28,11 @@ urls:
 
 author_logo: cool1.png
 author: 'Jake Sweany'
-author_bio: Hi, my name is Jake Sweany. I built this site using devlopr-jekyll :D
+author_bio: Hi, my name is Jake Sweany. I built this site using devlopr-jekyll
 author_email: "jakesw87@gmail.com"
 author_location: Costa Rica
 author_website_url: "jrootr.github.io"
-typewrite-text: glutten-free nonfat solutions for your wildest whims
+typewrite-text: glutten-free nonfat process and automation solutions
 
 # Experiences
 author_work_experiences:
