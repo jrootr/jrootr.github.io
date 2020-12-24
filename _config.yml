@@ -43,10 +43,10 @@ author_work_experiences:
               description: Design and implement automation solutions
               visibility: true
             - company_name: CIMS
-              company_logo: https://www.cims.com/wp-content/uploads/2018/05/CIMS-logo_2018-02-e1538198261111.png
+              company_logo: cims.jpg
               company_url: https://www.cims.com/
               designation: Customer Service Engineer
-              description: Provided technical onsite support for 
+              description: Provided technical onsite support for manufacuring equipment.
               visibility: true
 
 # Education
