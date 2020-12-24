@@ -40,13 +40,19 @@ author_work_experiences:
               company_logo: tunabear.jpg
               company_url: https://tunabear.com
               designation: Software Engineer
-              description: Design and implement automation solutions
+              description: Design and implement automation solutions.
               visibility: true
             - company_name: CIMS
               company_logo: cims.jpg
               company_url: https://www.cims.com/
               designation: Customer Service Engineer
               description: Provided technical onsite support for manufacuring equipment.
+              visibility: true
+            - company_name: TTM
+              company_logo: ttm.png
+              company_url: https://www.ttmtech.com
+              designation: Quality Engineer
+              description: implement quality management system improvements.
               visibility: true
 
 # Education
