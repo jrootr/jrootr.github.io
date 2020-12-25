@@ -32,7 +32,7 @@ author_bio: Hi, my name is Jake Sweany. I have been helping businesses improve t
 author_email: "jakesw87@gmail.com"
 author_location: Costa Rica
 author_website_url: "jrootr.github.io"
-typewrite-text: glutten-free nonfat process and automation solutions
+typewrite-text: Glutten-free nonfat software, process, and automation solutions.
 
 # Experiences
 author_work_experiences:
@@ -40,28 +40,42 @@ author_work_experiences:
               company_logo: tunabear.jpg
               company_url: https://tunabear.com
               designation: Software Engineer
-              description: Design and implement automation solutions.
+              description: Analyze customer's current processes. Develop and measure KPIs. Design and implement automation solutions.
               visibility: true
             - company_name: CIMS
-              company_logo: cims.jpg
+              company_logo: cims.png
               company_url: https://www.cims.com/
               designation: Customer Service Engineer
-              description: Provided technical onsite support for manufacuring equipment.
+              description: Provided onsite support for quality management equipment in electronics manufacturing facilities.
               visibility: true
             - company_name: TTM
               company_logo: ttm.png
               company_url: https://www.ttmtech.com
               designation: Quality Engineer
-              description: implement quality management system improvements.
+              description: Analyze and improve quality management systems in electronics manufacturing facilites.
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: msi.png
+                college_name: Management and Strategy Institute
+                college_url: https://www.msicertified.com/
+                description: Six Sigma Champion Certified
+                visibility: true
+              - college_logo: msi.png
+                college_name: Management and Strategy Institute
+                college_url: https://www.msicertified.com/
+                description: Six Sigma Lean Blackbelt Professional
+                visibility: true
+              - college_logo: adda.jpg
+                college_name: American Design and Drafting Association
+                college_url: https://www.adda.org/
+                description: Certified Drafter
+                visibility: true
+              - college_logo: logo-suny_transparent.png
+                college_name: State University of New York
+                college_url: https://www.suny.edu
+                description: Electrical Engineering
                 visibility: true
 
 # Projects
@@ -70,38 +84,38 @@ author_project_details:
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
-                visibility: true
+                visibility: false
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
-                visibility: true
+                visibility: false
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: 
+github_username:  
+facebook_username: 
+linkedin_username: 
+behance_username: 
+instagram_username: 
+medium_username: 
+telegram_username: 
+dribbble_username: 
+flickr_username: 
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+hyvor_talk_website_id: 
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: 
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+mailchimp_form_url: 
 
 # formspree (contact form)
-formspree_email: johndoe@gmail.com
+formspree_email:
 
 # syntax highlighter
 markdown: kramdown
@@ -111,7 +125,7 @@ permalink: pretty
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4
