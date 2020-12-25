@@ -81,11 +81,6 @@ author_education_details:
               - college_logo: msi.png
                 college_name: Management and Strategy Institute
                 college_url: https://www.msicertified.com/
-                description: Six Sigma Champion Certified
-                visibility: true
-              - college_logo: msi.png
-                college_name: Management and Strategy Institute
-                college_url: https://www.msicertified.com/
                 description: Six Sigma Lean Blackbelt Professional
                 visibility: true
               - college_logo: adda.jpg
