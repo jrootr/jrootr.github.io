@@ -72,6 +72,11 @@ author_education_details:
                 college_url: https://www.adda.org/
                 description: Certified Drafter
                 visibility: true
+              - college_logo: tec-ease.png
+                college_name: TEC-EASE INC.
+                college_url: https://www.tec-ease.com/
+                description: Geometric Dimensioning and Tolerancing Training
+                visibility: true
               - college_logo: logo-suny_transparent.png
                 college_name: State University of New York
                 college_url: https://www.suny.edu
