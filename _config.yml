@@ -17,8 +17,8 @@ urls:
     #   url: /gallery
     # - text: Shop
     #   url : /shop
-    # - text: Contact
-    #   url : /contact
+    - text: Contact
+      url : /contact
     # - text: Styleguide
     #   url: /styleguide
     # - text: Get Started
@@ -40,7 +40,7 @@ author_work_experiences:
               company_logo: tunabear.jpg
               company_url: https://tunabear.com
               designation: Software Engineer
-              description: Analyze customer's current processes. Develop and measure KPIs. Design and implement automation solutions.
+              description: Data mine customer's current processes. Develop and measure KPIs. Design and implement automation solutions.
               visibility: true
             - company_name: CIMS
               company_logo: cims.png
@@ -52,13 +52,13 @@ author_work_experiences:
               company_logo: ttm.png
               company_url: https://www.ttmtech.com
               designation: Quality Engineer
-              description: Analyze and improve quality management systems in electronics manufacturing facilites.
+              description: Analyzed and improved quality management systems in electronics manufacturing facilites.
               visibility: true
             - company_name: Coast to Coast Circuits
               company_logo: c2c.webp
               company_url: https://www.coast2coastcircuits.com/
               designation: Front End Engineer
-              description: Prepare product designs for manufacturing. Provided feedback to customers to improve manufacturability.
+              description: Prepared product designs for manufacturing. Provided feedback to customers to improve manufacturability.
               visibility: true
 
 # Education
@@ -136,7 +136,7 @@ wakatime_username:
 mailchimp_form_url: 
 
 # formspree (contact form)
-formspree_email:
+formspree_email: f/mwkwwqwa
 
 # syntax highlighter
 markdown: kramdown
