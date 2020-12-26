@@ -1,9 +1,9 @@
 {% comment %} <p> HTML , CSS , Javascript , PHP, Python, C</p>
 <p> Adobe XD, Inkscape, Git, linux </p> {% endcomment %}
-<nav class="navbar navbar-expand-md bg-dark navbar-dark navbar-custom">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark navbar-custom" id="nav_sk_1">
 </nav>
-<div class="nanobar" id="sk_1" style="position: fixed;">
-    <div class="bar"></div>
+<div class="skillbar" id="sk_1" style="position: fixed;">
+    <div class="sbar" id="sk_1_t"></div>
 </div>
 <div id="sk_2" class="my-class">Test2</div>
 <div id="sk_3" class="my-class"></div>
@@ -12,20 +12,18 @@
 <div id="sk_6" class="my-class"></div>
 
      <script>
-        console.log('test1');
             var options = {
-                classname: "nanobar",
-                id: "sk_1"
+                classname: "skillbar",
+                id: "sk_1",
+                target: document.getElementById('nav_sk_1')
             };
-            var nanobar = new Nanobar( options );
-            nanobar.go(5);
-            nanobar.go(10);
-            nanobar.go(20);
-            nanobar.go(30);
-            nanobar.go(76);
-            nanobar.go(80);
-            nanobar.go(90);
-            nanobar.go(95);
-            nanobar.go(100);
-        console.log('test2');
+            var nanobar_sk_1 = new Nanobar( options );
+            nanobar_sk_1.go(5);
+            nanobar_sk_1.go(10);
+            nanobar_sk_1.go(20);
+            nanobar_sk_1.go(30);
+            nanobar_sk_1.go(76);
+            nanobar_sk_1.go(80);
+            nanobar_sk_1.go(90);
+            nanobar_sk_1.go(95);
      </script>
