@@ -28,7 +28,7 @@ urls:
 
 author_logo: cool1.png
 author: 'Jake Sweany'
-author_bio: Hi, my name is Jake Sweany. I have been helping businesses improve their processes and implement automation solutions since 2008.
+author_bio: Hi, I have been helping businesses improve their processes and implement automation solutions since 2008. I am a US citizen residing in Costa Rica. I am available for all kinds of contract work including web-design, automation, and writing to name a few. Let me know how I can help using the contact form.
 author_email: "jakesw87@gmail.com"
 author_location: Costa Rica
 author_website_url: "jrootr.github.io"
@@ -63,20 +63,44 @@ author_work_experiences:
 
 # Skill Levels
 author_skill_levels:
-              - description: AutoCAD
-                percentage: 90%
-                visibility: true 
-              - description: Genesis
-                percentage: 100%
-                visibility: true 
-              - description: Javascript
+              - description: Python
                 percentage: 80%
                 visibility: true 
-              - description: CSS
-                percentage: 70%
+              - description: Javascript
+                percentage: 85%
+                visibility: true 
+              - description: React Framework Library
+                percentage: 35%
+                visibility: true 
+              - description: Perl
+                percentage: 40%
+                visibility: true 
+              - description: Java
+                percentage: 55%
                 visibility: true 
               - description: SQL
+                percentage: 70%
+                visibility: true 
+              - description: HTML/CSS
                 percentage: 75%
+                visibility: true 
+              - description: Dart/Flutter
+                percentage: 40%
+                visibility: true 
+              - description: Unix/CShell
+                percentage: 90%
+                visibility: true 
+              - description: C/C++
+                percentage: 85%
+                visibility: true 
+              - description: C#/VB
+                percentage: 90%
+                visibility: true 
+              - description: English
+                percentage: 99%
+                visibility: true 
+              - description: Spanish
+                percentage: 70%
                 visibility: true 
 
 # Education
