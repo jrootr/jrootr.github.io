@@ -91,10 +91,10 @@ author_skill_levels:
                 percentage: 90%
                 visibility: true 
               - description: C/C++
-                percentage: 85%
+                percentage: 65%
                 visibility: true 
               - description: C#/VB
-                percentage: 90%
+                percentage: 85%
                 visibility: true 
               - description: English
                 percentage: 99%

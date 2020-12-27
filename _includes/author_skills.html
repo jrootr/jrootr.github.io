@@ -1,15 +1,18 @@
+{% assign counter = 0 %}
 {% for skill in site.author_skill_levels %} {% if skill.visibility == true%}
 
     <div class="container">
         <span><h6 class="experience-info">{{skill.description}}</h6>
             <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated watch-{{skill.percentage | remove: "%"}}" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:{{skill.percentage}};background-color:#FF7901">
+                <div class="progress-bar progress-bar-striped progress-bar-animated watch-{{counter}}" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:{{skill.percentage}};background-color:#FF7901">
                     {{skill.percentage}}
                 </div>
             </div>
         </span>
         <hr>
     </div>
+
+    
 
     <style>
         .sk_br{{skill.percentage | remove: "%"}} {
@@ -26,7 +29,10 @@
     </style>
 
     <script>
-        addSkillListener(`sk_br${"{{skill.percentage | remove: '%'}}"}`, `watch-${"{{skill.percentage | remove: '%'}}"}`);
+        addSkillListener(`sk_br${"{{skill.percentage | remove: '%'}}"}`, `watch-${"{{counter}}"}`);
+        console.log("{{counter}}");
     </script>
 
+    
+{% assign counter = counter | plus: 1 %}
 {% endif %} {% endfor %}
