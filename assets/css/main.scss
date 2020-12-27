@@ -6,3 +6,9 @@
 @import "devlopr";
 
 /* custom css goes below */
+
+.skillbar {
+    height: 20px;
+    // background: rgb(210,69,17);
+    background: linear-gradient(90deg, rgba(210,69,17,1) 0%, rgba(120,121,9,1) 35%, rgba(79,219,79,1) 100%);
+}

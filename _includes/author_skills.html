@@ -1,29 +1,22 @@
 {% comment %} <p> HTML , CSS , Javascript , PHP, Python, C</p>
 <p> Adobe XD, Inkscape, Git, linux </p> {% endcomment %}
-<nav class="navbar navbar-expand-md bg-dark navbar-dark navbar-custom" id="nav_sk_1">
-</nav>
-<div class="skillbar" id="sk_1" style="position: fixed;">
-    <div class="sbar" id="sk_1_t"></div>
-</div>
-<div id="sk_2" class="my-class">Test2</div>
-<div id="sk_3" class="my-class"></div>
-<div id="sk_4" class="my-class"></div>
-<div id="sk_5" class="my-class"></div>
-<div id="sk_6" class="my-class"></div>
+<style>
+    .grow {
+        animation-name: load;
+        animation-duration: 1s;
+        transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+    }
 
-     <script>
-            var options = {
-                classname: "skillbar",
-                id: "sk_1",
-                target: document.getElementById('nav_sk_1')
-            };
-            var nanobar_sk_1 = new Nanobar( options );
-            nanobar_sk_1.go(5);
-            nanobar_sk_1.go(10);
-            nanobar_sk_1.go(20);
-            nanobar_sk_1.go(30);
-            nanobar_sk_1.go(76);
-            nanobar_sk_1.go(80);
-            nanobar_sk_1.go(90);
-            nanobar_sk_1.go(95);
-     </script>
+    @keyframes load {
+        from {width:0%}
+        to {width:50%}
+    }
+</style>
+
+<div class="container">
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated grow" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%;background-color:#FF7901">
+      40%
+    </div>
+  </div>
+</div>
