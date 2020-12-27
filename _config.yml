@@ -61,6 +61,12 @@ author_work_experiences:
               description: Prepared product designs for manufacturing. Provided feedback to customers to improve manufacturability.
               visibility: true
 
+# Skill Levels
+author_skill_levels:
+              - description: AutoCAD
+                percentage: 90%
+                visibility: true
+
 # Education
 author_education_details:
               - college_logo: traversy_media.png
@@ -147,6 +153,7 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: false
+show_author_skill_levels: true
 
 # pagination of posts
 paginate: 4

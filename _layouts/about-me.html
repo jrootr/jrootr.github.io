@@ -93,11 +93,13 @@ layout: default
       {% endif %}
     </div>
 
-    <div class="card">
-      <h1>Skills</h1>
+    {% if site.show_author_skill_levels == true %}
+      <div class="card">
+        <h1>Skills</h1>
 
-      {%- include author_skills.html -%}
-    </div>
+        {%- include author_skills.html -%}
+      </div>
+    {% endif %}
 
     {% if site.wakatime_username %}
     <div class="card">
@@ -111,7 +113,12 @@ layout: default
     {% if site.author_bio %}
     <div class="card">
       <h1 class="card-title">About</h1>
-      <p>{{ site.author_bio }}</p>
+      <div class="row">
+        <div class="col-md-1"></div>
+          <div class="col-md-11">
+            <p>{{ site.author_bio }}</p>
+          </div>
+        </div>
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
@@ -149,7 +156,6 @@ layout: default
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-11">
-        {% comment %} <div class="col"> {% endcomment %}
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
             class="company-logo"

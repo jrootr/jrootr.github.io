@@ -1,10 +1,9 @@
-{% comment %} <p> HTML , CSS , Javascript , PHP, Python, C</p>
-<p> Adobe XD, Inkscape, Git, linux </p> {% endcomment %}
 <style>
     .grow {
         animation-name: load;
-        animation-duration: 2s;
+        animation-duration: 1s;
         transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+        animation-iteration-count: 1;
     }
 
     @keyframes load {
@@ -13,10 +12,31 @@
     }
 </style>
 
-<div class="container">
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped progress-bar-animated watch-grow" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%;background-color:#FF7901">
-      90%
+{% for skill in site.author_skill_levels %} {% if skill.visibility == true%}
+
+    <div class="container">
+        <span><h5>{{skill.description}}</h5>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated watch-grow" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:{{skill.percentage}};background-color:#FF7901">
+                    {{skill.percentage}}
+                </div>
+            </div>
+        </span>
     </div>
-  </div>
-</div>
+
+    <style>
+
+    .sk_br{{skill.percentage | remove: "%"}} {
+        animation-name: load;
+        animation-duration: 1s;
+        transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+        animation-iteration-count: 1;
+    }
+
+    @keyframes load {
+        from {width:0%}
+        to {width:{{skill.percentage}}}
+    }
+    </style>
+
+{% endif %} {% endfor %}
