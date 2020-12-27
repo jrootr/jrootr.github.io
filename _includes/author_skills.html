@@ -1,19 +1,20 @@
 {% for skill in site.author_skill_levels %} {% if skill.visibility == true%}
 
     <div class="container">
-        <span><h5>{{skill.description}}</h5>
+        <span><h6 class="experience-info">{{skill.description}}</h6>
             <div class="progress">
                 <div class="progress-bar progress-bar-striped progress-bar-animated watch-{{skill.percentage | remove: "%"}}" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:{{skill.percentage}};background-color:#FF7901">
                     {{skill.percentage}}
                 </div>
             </div>
         </span>
+        <hr>
     </div>
 
     <style>
         .sk_br{{skill.percentage | remove: "%"}} {
             animation-name: load;
-            animation-duration: 1s;
+            animation-duration: {{skill.percentage | remove: "%" | divided_by: 100.0}}s;
             transition-timing-function: cubic-bezier(.17,.67,.83,.67);
             animation-iteration-count: 1;
         }
