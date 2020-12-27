@@ -4,5 +4,5 @@ function removeGrow() {
     document.querySelector('.grow').classList.remove('grow');
 }
 document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(removeGrow, 800);
+    setTimeout(removeGrow, 1800);
 });
