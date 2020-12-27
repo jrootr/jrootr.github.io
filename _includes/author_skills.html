@@ -25,8 +25,7 @@
     </style>
 
     <script>
-        let sk = "{{skill.percentage | remove: '%'}}";
-        addSkillListener(`sk_br${sk}`, `watch-${sk}`);
+        addSkillListener(`sk_br${"{{skill.percentage | remove: '%'}}"}`, `watch-${"{{skill.percentage | remove: '%'}}"}`);
     </script>
 
 {% endif %} {% endfor %}

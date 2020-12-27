@@ -65,7 +65,19 @@ author_work_experiences:
 author_skill_levels:
               - description: AutoCAD
                 percentage: 90%
-                visibility: true
+                visibility: true 
+              - description: Genesis
+                percentage: 100%
+                visibility: true 
+              - description: Javascript
+                percentage: 80%
+                visibility: true 
+              - description: CSS
+                percentage: 70%
+                visibility: true 
+              - description: SQL
+                percentage: 75%
+                visibility: true 
 
 # Education
 author_education_details:
