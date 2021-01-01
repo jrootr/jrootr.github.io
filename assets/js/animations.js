@@ -11,7 +11,7 @@ function addSkillListener(cls, watch_cls) {
         entries.forEach(entry => {
             entry.target.classList.add(cls);
             setTimeout(() => {entry.target.classList.remove(cls)}, 1200)
-        })
+        });
     }, skillbar_observer);
     let target = document.querySelector(`.${watch_cls}`);
     observer.observe(target);

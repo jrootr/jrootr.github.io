@@ -4,7 +4,7 @@ layout: default
 
 <div class="row ">
   <div class="col-lg-4 offset-md-1">
-    <div class="card" id="profile-card">
+    <div class="card slide1" id="profile-card">
       <a href="/">
         <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
       </a>
@@ -94,7 +94,7 @@ layout: default
     </div>
 
     {% if site.show_author_skill_levels == true %}
-      <div class="card">
+      <div class="card slide1">
         <h1>Skills</h1>
 
         {%- include author_skills.html -%}
@@ -102,7 +102,7 @@ layout: default
     {% endif %}
 
     {% if site.wakatime_username %}
-    <div class="card">
+    <div class="card slide1">
       <h1>Coding Activity</h1>
 
       {%- include coding_activity.html -%}
@@ -111,7 +111,7 @@ layout: default
   </div>
   <div class="col-lg-7">
     {% if site.author_bio %}
-    <div class="card">
+    <div class="card slide1">
       <h1 class="card-title">About</h1>
       <div class="row">
         <div class="col-md-1"></div>
@@ -121,7 +121,7 @@ layout: default
         </div>
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
-    <div id="author_projects" class="card">
+    <div id="author_projects" class="card slide1">
       <h1 class="card-title">Projects</h1>
       <br />
       {% for project in site.author_project_details %} {% if project.visibility
@@ -148,7 +148,7 @@ layout: default
       {% endif %} {% endfor %}
     </div>
     {% endif %} {% if site.show_author_work_experiences == true %}
-    <div class="card">
+    <div class="card slide1">
       <h1 class="card-title">Work Experience</h1>
       <br />
       {% for exp in site.author_work_experiences %} {% if exp.visibility == true
@@ -169,7 +169,7 @@ layout: default
       {% endif %} {% endfor %}
     </div>
     {% endif %} {% if site.show_author_education_details == true %}
-    <div class="card">
+    <div class="card slide1">
       <h1 class="card-title">Education</h1>
       <br />
       {% for detail in site.author_education_details %} {% if detail.visibility
