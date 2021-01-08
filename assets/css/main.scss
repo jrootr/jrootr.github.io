@@ -16,11 +16,26 @@
 .slide1 {
     position: relative;
     animation-name: entry1;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     transition-timing-function: cubic-bezier(.3,-0.53,1,-0.53);
 }
 
+.fade1 {
+    position: relative;
+    animation-name: fade1;
+    animation-duration: 7s;
+}
+
 @keyframes entry1 {
-    0% {opacity:0; left:200px;}
+    0% {opacity:0; left:8000px;}
     100% {opacity:1; left:0px;}
 }
+
+@keyframes fade1 {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+
+
