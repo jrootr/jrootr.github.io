@@ -1,4 +1,4 @@
-title: devlopr
+title: jrootr
 subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
@@ -30,10 +30,10 @@ urls:
 
 author_logo: cool1.png
 author: 'Jake Sweany'
-author_bio: Hi, I have been helping businesses improve their processes and implement automation solutions since 2008. I am a US citizen residing in Costa Rica. I am available for all kinds of contract work including web-design, automation, and writing to name a few. Let me know how I can help using the contact form.
+author_bio: I have been helping businesses improve their processes and implement automation solutions since 2008. I am a US citizen residing in Costa Rica. I am available for all kinds of contract work including web-design, automation, and writing to name a few. Let me know how I can help using the contact form.
 author_email: "jakesw87@gmail.com"
-author_location: Costa Rica
-author_website_url: "jrootr.github.io"
+author_location: Olathe, Kansas
+author_website_url: "jakesweany.com"
 typewrite-text: Glutten-free nonfat software, process, and automation solutions.
 
 # Experiences
@@ -279,6 +279,7 @@ jekyll_admin:
 # firebase - For Firebase Hosting
 
 exclude:
+  - tmp/
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/

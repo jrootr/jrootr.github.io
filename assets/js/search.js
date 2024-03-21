@@ -17,6 +17,7 @@ $(document).ready(function() {
       setTimeout(function() {
         search_field.focus();
       }, 500);
+      
     });
 
     $('.search-form-container').on('keyup', function(event) {
